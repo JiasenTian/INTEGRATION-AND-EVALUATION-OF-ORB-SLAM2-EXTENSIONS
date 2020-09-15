@@ -1,0 +1,28 @@
+/home/jiasen/Application/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jiasen/FiNAl_VERSION/fisheye-GCNv2-SLAM
+Build type: Debug
+-- Using flag -std=c++11.
+TORCH_PATH set to: /home/jiasen/MasterProject/pytorch/torch/lib/tmp_install/share/cmake/Torch
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda (found suitable version "9.0", minimum required is "7.0") 
+-- Caffe2: CUDA detected: 9.0
+-- Caffe2: CUDA nvcc is: /usr/local/cuda/bin/nvcc
+-- Caffe2: CUDA toolkit directory: /usr/local/cuda
+-- Caffe2: Header version is: 9.0
+-- Found CUDNN: /usr/local/cuda/include  
+-- Found cuDNN: v7.3.1  (include: /usr/local/cuda/include, library: /usr/local/cuda/lib64/libcudnn.so)
+-- Autodetected CUDA architecture(s): 5.0
+-- Added CUDA NVCC flags for: -gencode;arch=compute_50,code=sm_50
+-- Found torch: /home/jiasen/MasterProject/pytorch/torch/lib/tmp_install/lib/libtorch.so  
+-- Torch version is: 1.0.0
+-- Torch version is: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jiasen/FiNAl_VERSION/fisheye-GCNv2-SLAM/cmake-build-debug
