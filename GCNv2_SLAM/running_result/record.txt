@@ -1,0 +1,21 @@
+# tum2 GCNv2
+median tracking time: 0.114909
+mean tracking time: 0.116833
+
+Saving keyframe trajectory to KeyFrameTrajectory_GCNv2_mono_tum.txt ...
+
+
+# tum2 ORB
+median tracking time: 0.0530185
+mean tracking time: 0.0523893
+
+Saving keyframe trajectory to KeyFrameTrajectory_GCNv2_mono_tum.txt ...
+
+trajectory saved!
+
+
+
+
+GCNv2 
+
+33212

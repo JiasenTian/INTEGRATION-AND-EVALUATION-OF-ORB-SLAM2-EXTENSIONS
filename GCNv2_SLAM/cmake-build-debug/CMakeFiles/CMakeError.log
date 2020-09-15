@@ -1,0 +1,63 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31250/fast && /usr/bin/make -f CMakeFiles/cmTC_31250.dir/build.make CMakeFiles/cmTC_31250.dir/build
+make[1]: Entering directory '/home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31250.dir/src.c.o
+/usr/bin/cc   -Wall -O3 -march=native  -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_31250.dir/src.c.o   -c /home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_31250
+/home/jiasen/Application/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31250.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -O3 -march=native  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_31250.dir/src.c.o  -o cmTC_31250 
+CMakeFiles/cmTC_31250.dir/src.c.o：在函数‘main’中：
+src.c:(.text.startup+0x21)：对‘pthread_create’未定义的引用
+src.c:(.text.startup+0x2a)：对‘pthread_detach’未定义的引用
+src.c:(.text.startup+0x35)：对‘pthread_join’未定义的引用
+src.c:(.text.startup+0x40)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_31250.dir/build.make:86: recipe for target 'cmTC_31250' failed
+make[1]: *** [cmTC_31250] Error 1
+make[1]: Leaving directory '/home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_31250/fast' failed
+make: *** [cmTC_31250/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d7dd/fast && /usr/bin/make -f CMakeFiles/cmTC_4d7dd.dir/build.make CMakeFiles/cmTC_4d7dd.dir/build
+make[1]: Entering directory '/home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d7dd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -O3 -march=native  -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4d7dd.dir/CheckFunctionExists.c.o   -c /home/jiasen/Application/clion-2020.1.1/bin/cmake/linux/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4d7dd
+/home/jiasen/Application/clion-2020.1.1/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d7dd.dir/link.txt --verbose=1
+/usr/bin/cc  -Wall -O3 -march=native  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4d7dd.dir/CheckFunctionExists.c.o  -o cmTC_4d7dd  -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4d7dd.dir/build.make:86: recipe for target 'cmTC_4d7dd' failed
+make[1]: *** [cmTC_4d7dd] Error 1
+make[1]: Leaving directory '/home/jiasen/FiNAl_VERSION/GCNv2_SLAM/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4d7dd/fast' failed
+make: *** [cmTC_4d7dd/fast] Error 2
+
+
+
