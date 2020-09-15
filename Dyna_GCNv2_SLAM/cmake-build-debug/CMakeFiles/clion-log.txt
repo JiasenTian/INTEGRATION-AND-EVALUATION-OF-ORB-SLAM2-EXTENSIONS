@@ -1,0 +1,24 @@
+/home/jiasen/Application/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jiasen/FiNAl_VERSION/Dyna_GCNv2_SLAM
+Build type: Debug
+-- Using flag -std=c++11.
+PROJECT_SOURCE_DIR: /home/jiasen/MasterProject/opencv-2.4.11/build
+PYTHON LIBS were found!
+PYTHON LIBS DIRECTORY: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+Boost was found!
+Boost Headers DIRECTORY: /usr/include
+Boost LIBS DIRECTORY: /usr/lib/x86_64-linux-gnu
+Found Libraries: /usr/lib/x86_64-linux-gnu/libboost_thread.so-lpthread/usr/lib/x86_64-linux-gnu/libboost_chrono.so/usr/lib/x86_64-linux-gnu/libboost_system.so/usr/lib/x86_64-linux-gnu/libboost_date_time.so/usr/lib/x86_64-linux-gnu/libboost_atomic.so
+TORCH_PATH set to: /home/jiasen/MasterProject/pytorch/torch/lib/tmp_install/share/cmake/Torch
+-- Caffe2: CUDA detected: 9.0
+-- Caffe2: CUDA nvcc is: /usr/local/cuda/bin/nvcc
+-- Caffe2: CUDA toolkit directory: /usr/local/cuda
+-- Caffe2: Header version is: 9.0
+-- Found cuDNN: v7.3.1  (include: /usr/local/cuda/include, library: /usr/local/cuda/lib64/libcudnn.so)
+-- Autodetected CUDA architecture(s): 5.0
+-- Added CUDA NVCC flags for: -gencode;arch=compute_50,code=sm_50
+-- Torch version is: 1.0.0
+-- Torch version is: 
+PROJECT_SOURCE_DIR: /home/jiasen/FiNAl_VERSION/Dyna_GCNv2_SLAM
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jiasen/FiNAl_VERSION/Dyna_GCNv2_SLAM/cmake-build-debug

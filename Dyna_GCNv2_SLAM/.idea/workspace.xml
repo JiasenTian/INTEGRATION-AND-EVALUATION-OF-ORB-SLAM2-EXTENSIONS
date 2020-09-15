@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="DynaSLAM" targetName="mono_tum" />
+      <config projectName="DynaSLAM" targetName="stereo_kitti" />
+      <config projectName="DynaSLAM" targetName="mono_carla" />
+      <config projectName="DynaSLAM" targetName="DynaSLAM" />
+      <config projectName="DynaSLAM" targetName="rgbd_tum" />
+      <config projectName="DynaSLAM" targetName="mono_kitti" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="32ac79cf-1845-42fd-94c5-f5cfa01c78ec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1eMDtlgXB6vsFmgqF4qVPSRIStg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fisheye-GCNv2-SLAM" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="CMake Application.mono_carla">
+    <configuration name="DynaSLAM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DynaSLAM" TARGET_NAME="DynaSLAM" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mono_carla" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DynaSLAM" TARGET_NAME="mono_carla" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DynaSLAM" RUN_TARGET_NAME="mono_carla">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mono_kitti" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DynaSLAM" TARGET_NAME="mono_kitti" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DynaSLAM" RUN_TARGET_NAME="mono_kitti">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mono_tum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DynaSLAM" TARGET_NAME="mono_tum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DynaSLAM" RUN_TARGET_NAME="mono_tum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rgbd_tum" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DynaSLAM" TARGET_NAME="rgbd_tum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DynaSLAM" RUN_TARGET_NAME="rgbd_tum">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stereo_kitti" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DynaSLAM" TARGET_NAME="stereo_kitti" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DynaSLAM" RUN_TARGET_NAME="stereo_kitti">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.DynaSLAM" />
+      <item itemvalue="CMake Application.mono_carla" />
+      <item itemvalue="CMake Application.mono_kitti" />
+      <item itemvalue="CMake Application.mono_tum" />
+      <item itemvalue="CMake Application.rgbd_tum" />
+      <item itemvalue="CMake Application.stereo_kitti" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32ac79cf-1845-42fd-94c5-f5cfa01c78ec" name="Default Changelist" comment="" />
+      <created>1594122784186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594122784186</updated>
+      <workItem from="1594122786597" duration="615000" />
+      <workItem from="1595561628203" duration="110000" />
+      <workItem from="1595939262667" duration="3528000" />
+      <workItem from="1597900247198" duration="1547000" />
+      <workItem from="1597913059833" duration="700000" />
+      <workItem from="1597914934616" duration="6849000" />
+      <workItem from="1597927419374" duration="2386000" />
+      <workItem from="1597931791396" duration="4170000" />
+      <workItem from="1597936717327" duration="942000" />
+      <workItem from="1597939412570" duration="7967000" />
+      <workItem from="1597980164289" duration="6564000" />
+      <workItem from="1597990335979" duration="7787000" />
+      <workItem from="1598080333355" duration="1011000" />
+      <workItem from="1598152391508" duration="467000" />
+      <workItem from="1598256505862" duration="8831000" />
+      <workItem from="1598550800295" duration="3173000" />
+      <workItem from="1598600610126" duration="13477000" />
+      <workItem from="1598727945191" duration="2051000" />
+      <workItem from="1598758014060" duration="7960000" />
+      <workItem from="1598856883461" duration="6826000" />
+      <workItem from="1598930459340" duration="6920000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1693" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597915933213">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1693" y="310" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597915933213" />
+    <state x="2068" y="237" key="FileChooserDialogImpl" timestamp="1598856917324">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2068" y="237" key="FileChooserDialogImpl/65.24.1301.744/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598856917324" />
+    <state x="541" y="187" key="FileChooserDialogImpl/65.24.1301.744/1366.0.1920.1080@65.24.1301.744" timestamp="1598080744189" />
+    <state x="541" y="187" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1597933858117" />
+    <state x="1863" y="247" key="FileChooserDialogImpl/65.24.3221.1056@65.24.3221.1056" timestamp="1598795202305" />
+    <state x="670" y="401" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1595561734475">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="670" y="401" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/65.24.1301.744@65.24.1301.744" timestamp="1595561734475" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Examples/RGB-D/rgbd_tum.cc</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
